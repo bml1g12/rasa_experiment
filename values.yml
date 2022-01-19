@@ -1,0 +1,8 @@
+
+# This file is used by Rasa X along with various other parameters. It is needed that these flags are defined.
+rasa:
+  versions:
+    rasaProduction:
+      enabled: true
+    rasaWorker:
+      enabled: true

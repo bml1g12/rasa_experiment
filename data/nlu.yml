@@ -90,3 +90,13 @@ nlu:
     - are you a human?
     - am I talking to a bot?
     - am I talking to a human?
+
+
+- intent: body_temperature
+  examples: |
+    - Body temperature is [28 degrees](temperature)
+    - [Ben](person_name)'s [body temperature](temperature) is [27 degrees](temperature)
+    - [29 degrees Celsius](temperature)
+    - [28.6 degrees](temperature) is the temperature of [Jim](person_name)'s body
+    - A temperature of [27.5 degrees](temperature)
+    - [Vincent Smith](person_name)'s body temperature is [29 degrees](temperature) celsius.
